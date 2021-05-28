@@ -46,7 +46,7 @@ namespace EmpRecord
             });
             services.AddSwaggerGen(config =>
             {
-                var titleBase = "Employee Record Application";
+                var titleBase = "Employee Application";
                 var description = "This is a web API for maintaining Employee records";
                 config.SwaggerDoc("v1", new OpenApiInfo
                 {
