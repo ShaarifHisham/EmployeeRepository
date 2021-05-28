@@ -13,6 +13,7 @@ namespace EmpRecord.Models
         public string Role { get; set; }
         public int Experience { get; set; }
         public int Salary { get; set; }
+        public int age { get; set; }
     }
 
 }
